@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,   //是否启动所有严格检查的总开关，默认：false
+    "noLib": false,   //是否禁止自动包含任何库文件，默认：false
+    "forceConsistentCasingInFileNames": true, //是否区分文件系统大小写规则，默认：false
+    "allowSyntheticDefaultImports": true,     //是否允许从没有默认导出的模块中默认导入，默认：false
+    "strictFunctionTypes": false,             //是否启用对函数类型的严格检查，默认：false
+    "jsx": "preserve",
+    "allowJs": true,  //允许编译 javascript ⽂件，默认：false
+    "sourceMap": true,  // ⽣成相应的 '.map' ⽂件
+    "esModuleInterop": true,    //是否通过为所有导入模块创建命名空间对象,默认：false
+    "resolveJsonModule": true,  //是否解析 JSON 模块，默认：false
+//    "noUnusedLocals": true,     //是否检查未使用的局部变量，默认：false
+//    "noUnusedParameters": true, //是否检查未使用的参数，默认：false
+    "experimentalDecorators": true,  //是否启用对装饰器的实验性支持
+    "lib": ["dom", "esnext"],  //引入库定义文件
+    "noImplicitAny": false, //是否禁止隐式的any类型，默认：false，如果true，函数的形参必须带类型，如果false，函数的样子更像js
+    "skipLibCheck": true,  //是否跳过声明文件的类型检查
+//    "strictNullChecks": false, // 不检查 null/undefined
+    "removeComments": true,  //是否移除注释，默认：false
+    "types": ["vite/client"], //需要包含的类型声明⽂件名列表
+    "baseUrl": ".",  //与paths一同定义模块查找的路径
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  //设置需要进行编译的文件
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite.config.ts"
+  ],
+  //设置无需进行编译的文件
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.js",
+    "**/*.md",
+    "src/**/*.md"
+  ]
+}

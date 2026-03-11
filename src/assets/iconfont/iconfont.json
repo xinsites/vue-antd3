@@ -1,0 +1,65 @@
+{
+  "id": "3620845",
+  "name": "xinsite-vue",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "34916753",
+      "name": "set",
+      "font_class": "setting",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "18170425",
+      "name": "固定,图钉",
+      "font_class": "relieve",
+      "unicode": "e9ba",
+      "unicode_decimal": 59834
+    },
+    {
+      "icon_id": "18170426",
+      "name": "固定,图钉",
+      "font_class": "relieve-full",
+      "unicode": "e9bb",
+      "unicode_decimal": 59835
+    },
+    {
+      "icon_id": "13303555",
+      "name": "i18n",
+      "font_class": "in",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "856957",
+      "name": "返回",
+      "font_class": "return",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "7450629",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "ea34",
+      "unicode_decimal": 59956
+    },
+    {
+      "icon_id": "21053386",
+      "name": "列表",
+      "font_class": "liebiao1",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "21067929",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}

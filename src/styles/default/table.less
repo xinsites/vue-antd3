@@ -1,0 +1,165 @@
+/** 表格相关样式 */
+
+// 数据列表 搜索条件
+.table-page-search {
+  .search-btn-right {
+    text-align: right;
+  }
+
+  .ant-form-inline {
+    .ant-row {
+      width: 100%;
+    }
+
+    .ant-form-item {
+      display: flex;
+      //margin-bottom: 24px;
+      margin-right: 0;
+
+      .ant-form-item-control-wrapper {
+        flex: 1 1;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      > .ant-form-item-label {
+        line-height: 32px;
+        padding-right: 8px;
+        width: auto;
+      }
+
+      //.ant-form-item-control {
+      //  height: 32px;
+      //  line-height: 32px;
+      //}
+    }
+  }
+
+  .table-page-search-submitButtons {
+    display: block;
+    margin-bottom: 24px;
+    white-space: nowrap;
+  }
+}
+
+/* 静态表格 */
+.xin-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background: var(--component-background);
+
+  thead tr {
+    th,
+    td {
+      background: var(--table-header-bg);
+      transition: background-color 0.25s ease;
+    }
+  }
+
+  tr {
+    th,
+    td {
+      background: var(--component-background);
+      transition: background-color 0.25s ease;
+    }
+  }
+
+  tr:hover, &.xin-table-stripe tr:nth-child(even) {
+    th,
+    td {
+      cursor: default;
+      background: var(--table-row-hover-bg);
+    }
+  }
+
+  tr.xin-table-active {
+    th,
+    td {
+      background: var(--table-row-hover-bg);
+    }
+  }
+
+  th, td {
+    font-weight: normal;
+    line-height: 24px;
+    padding: 12px 10px;
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--border-color-split);
+    border-bottom-width: 1px;
+    text-align: left;
+  }
+
+  th {
+    color: var(--heading-color);
+  }
+
+  // 显示边框
+  &.xin-table-border {
+    th,
+    td {
+      border-width: 1px;
+    }
+  }
+
+  // 尺寸控制
+  &.xin-table-medium {
+    th,
+    td {
+      padding: 11px 8px;
+    }
+  }
+
+  &.xin-table-small {
+    th,
+    td {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 12px;
+    }
+  }
+
+  &.xin-table-mini {
+    th,
+    td {
+      padding-top: 6px;
+      padding-bottom: 6px;
+      font-size: 12px;
+    }
+  }
+
+  // 表头分割线
+  &:not(.xin-table-border) thead > tr > th {
+    position: relative;
+
+    &:not(:last-child):before {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 1px;
+      height: 1.6em;
+      background-color: var(--table-header-cell-split-color);
+      transform: translateY(-50%);
+      transition: background-color 0.3s;
+      content: '';
+    }
+  }
+}
+
+/* 表格操作列 */
+.x-table {
+
+  //a-button链接按钮样式
+  .ant-btn-link, .ant-btn-link:focus, .ant-btn-link:hover {
+    height: 14px !important;
+    line-height: 14px !important;
+    padding: 0px !important;
+    border: 0px solid transparent !important;
+    box-shadow: 0 0 0 0px transparent !important;
+  }
+}
+
+.x-table-contextmenu-item {
+  margin-left: 10px;
+}

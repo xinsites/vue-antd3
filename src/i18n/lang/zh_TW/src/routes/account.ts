@@ -1,0 +1,4 @@
+export default {
+  settings: '個人設置',
+  about: '關於',
+};

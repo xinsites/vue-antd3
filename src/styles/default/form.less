@@ -1,0 +1,166 @@
+//form表单某些输入框宽度100%定义
+.xin-form-input-w100 {
+  .ant-input-number, .ant-picker, .ant-input-number-affix-wrapper {
+    width: 100%;
+  }
+}
+
+//弹窗form表单一列布局最后textarea输入框高度填充
+.xin-modal-form-last-full {
+  .ant-spin-nested-loading, .ant-spin-container {
+    height: 100%;
+  }
+
+  .ant-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .ant-form-item:last-child:not(:only-child) {
+      flex: 1;
+
+      .ant-form-item-control-input {
+        height: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+
+        .ant-input-affix-wrapper {
+          height: 100%;
+        }
+
+        .ant-input-affix-wrapper {
+          height: 100%;
+        }
+
+        .ant-form-item-control-input-content {
+          height: 100%;
+
+          textarea.ant-input {
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .ant-form-item-control-input-content {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+//弹窗form表单多列布局最后textarea输入框高度填充
+.xin-modal-form-row-last-full {
+  .ant-spin-nested-loading, .ant-spin-container {
+    height: 100%;
+  }
+
+  .ant-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .ant-row:last-child:not(:only-child) {
+      flex: 1;
+
+      .ant-form-item {
+        height: 100%;
+      }
+
+      .ant-form-item-control-input {
+        height: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+
+        .ant-input-affix-wrapper {
+          height: 100%;
+        }
+
+        .ant-form-item-control-input-content {
+          height: 100%;
+
+          textarea.ant-input {
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .ant-row:first-child {
+      flex: unset;
+
+      .ant-form-item {
+        height: unset;
+      }
+    }
+
+    .ant-checkbox-wrapper {
+      min-height: 32px;
+      line-height: 32px;
+    }
+
+    .ant-form-item-control-input-content {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.form-submit-warp {
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+
+  .ant-btn {
+    margin: 10px 8px;
+    padding: 0px 40px;
+  }
+
+  .anticon {
+    margin-right: 4px;
+  }
+}
+
+.xin-form-validate-error {
+  color: #ff4d4f;
+  margin: 16px 20px;
+}
+
+.xin-mobile {
+  .create-form-card {
+    .ant-card-body {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+
+  .form-submit-warp {
+    .ant-btn {
+      padding: 0px 30px;
+    }
+  }
+}
+
+.attach-grid-180 .x-upload-edit-name {
+  .ant-upload-list-picture-card-container {
+    width: 180px;
+    height: 180px;
+    margin: 0 16px 16px 0;
+  }
+
+  .ant-upload.ant-upload-select-picture-card {
+    width: 180px;
+    height: 180px;
+  }
+
+}
+
+
+
+
+
+

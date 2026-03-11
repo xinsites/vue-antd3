@@ -1,0 +1,32 @@
+export default {
+    vueAppName: 'XinSite System Antd',
+    okText: 'OK',
+    closeText: 'Close',
+    cancelText: 'Cancel',
+    loadingText: 'Loading...',
+    editText: 'Edit',
+    saveText: 'Save',
+    addText: 'Add',
+    delText: 'Delete',
+    resetText: 'Reset',
+    searchText: 'Search',
+    queryText: 'Search',
+    inputText: 'Please enter',
+    chooseText: 'Please choose',
+    redo: 'Refresh',
+    back: 'Back',
+    questionMessage: {
+        deleteConfirm: 'Are you sure you want to delete these record information?',
+    },
+    infoMessage: {
+        save: 'Record saved successfully!',
+        delete: 'Record has been deleted!',
+    },
+    errorMessage: {
+        list: 'Error retrieving data information!',
+        sort: 'Error in sorting!',
+        save: 'Error saving edited row!',
+        delete: 'Error in deletion!',
+        validate: 'Data verification failed！',
+    },
+};

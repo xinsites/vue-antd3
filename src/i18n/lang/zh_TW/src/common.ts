@@ -1,0 +1,32 @@
+export default {
+    vueAppName: 'XinSite系統 Antd',
+    okText: '確定',
+    closeText: '關閉',
+    cancelText: '取消',
+    loadingText: '加載中…',
+    editText: '編輯',
+    saveText: '保存',
+    addText: '新建',
+    delText: '删除',
+    resetText: '重置',
+    searchText: '蒐索',
+    queryText: '査詢',
+    inputText: '請輸入',
+    chooseText: '請選擇',
+    redo: '刷新',
+    back: '返回',
+    questionMessage: {
+        deleteConfirm: '確定要刪除這些記錄信息嗎？',
+    },
+    infoMessage: {
+        save: '記錄保存成功！',
+        delete: '記錄已經刪除！',
+    },
+    errorMessage: {
+        list: '獲取數據信息出錯！',
+        sort: '排序出錯！',
+        save: '編輯行保存出錯！',
+        delete: '刪除出錯！',
+        validate: '數據校驗不通過！',
+    },
+};

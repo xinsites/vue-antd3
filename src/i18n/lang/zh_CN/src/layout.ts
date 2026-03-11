@@ -1,0 +1,86 @@
+/* 主框架 */
+export default {
+  header: {
+    search: {
+      title: '搜索菜单',
+      keyword: '请输入关键词搜索',
+      empty: '暂无搜索结果',
+      confirm: '确认',
+      switch: '切换',
+    },
+    lockScreen: '锁屏',
+    fullScreen: '全屏',
+    personalCenter: '个人中心',
+    changePassword: '修改密码',
+    userDept: '用户部门',
+    logout: '退出登录',
+  },
+  logout: {
+    title: '提示',
+    message: '确定要退出登录吗?'
+  },
+  setting: {
+    name: '主题设置',
+    navMode: {
+      name: '导航模式',
+      mode1: '左侧菜单布局',
+      mode2: '顶部菜单布局',
+      mode3: '左侧菜单混合布局',
+      mode4: '顶部菜单混合布局',
+    },
+    sysTheme: '系统主题',
+    darkMode: '开启暗黑模式',
+    headerTheme: '头部主题',
+    showMenuSearch: '开启菜单搜索',
+    showTabs: '开启多页标签',
+    menuTheme: '菜单主题',
+    colorfulIcon: '侧栏彩色图标',
+    sideMenuDouble: '侧栏双排菜单',
+    sideUniqueOpen: '侧栏排他展开',
+    canMenuDrag: '菜单宽度拖拽',
+    menuWidth: '菜单展开宽度',
+    otherConfig: {
+      name: '其他配置',
+      backUpBtn: '回到顶部按钮',
+      showFooter: '开启全局页脚',
+      pagePadding: '内容区域边距',
+      lockScreen: '自动锁屏设置',
+      handLockScreen: '0手动锁屏',
+      tabStyle: {
+        name: '页签显示风格',
+        style1: '圆滑',
+        style2: '下划线',
+        style3: '圆点',
+        style4: '卡片',
+      },
+      menuTrigger: '菜单折叠按钮',
+      refreshTrigger: '刷新按钮',
+      noShow: '不显示',
+      top: '顶部',
+      bottom: '底部',
+      currentTab: '当前页签',
+      i18n: '国际化语言',
+      tableSize: '表格统一尺寸',
+      default: "大号",
+      middle: "中等",
+      small: "紧凑",
+    },
+    animationConfig: {
+      name: '动画配置',
+      progressBar: '顶部进度条',
+      pageSwitch: '页面切换动画',
+      animationType: '动画类型',
+      animation: {
+        zoomIn: '放大渐变',
+        zoomOut: '缩小渐变',
+        fadeSlide: '滑动渐变',
+        fade: '淡入淡出',
+        slideBottom: '底部消退',
+        slideRight: '右侧消退',
+      },
+    },
+    explain: '主题配置对本地浏览器具有缓存功能，配置生效后不需要保存，下次打开具有同样效果。',
+  }
+};
+
+

@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "value": 1,
+    "label": "管理部",
+    "children": [
+      {
+        "id": 11,
+        "value": 11,
+        "label": "品质部",
+        "children": [
+          {
+            "value": 111,
+            "label": "人事部"
+          },
+          {
+            "value": 112,
+            "label": "财务部"
+          },
+          {
+            "id": 113,
+            "value": 113,
+            "label": "采购部"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "value": 2,
+    "label": "业务部",
+    "children": [
+      {
+        "value": 21,
+        "label": "销售部",
+        "children": [
+          {
+            "value": 211,
+            "label": "工程部"
+          },
+          {
+            "value": 212,
+            "label": "技术部"
+          }
+        ]
+      },
+      {
+        "value": 22,
+        "label": "仓库部",
+        "disabled": true
+      }
+    ]
+  }
+]
