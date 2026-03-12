@@ -15,7 +15,7 @@
 
         <div class="footer-box" style="margin-top: 18px">
           <div class="footer-left">
-            <p style="margin-top: 10px"><b>当前版本：</b><span>v1.4.0</span></p>
+            <p style="margin-top: 10px"><b>当前版本：</b><span>v1.4.1</span></p>
           </div>
           <div class="footer-right">
             <a-button>

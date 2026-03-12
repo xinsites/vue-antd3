@@ -1,6 +1,6 @@
 <template>
   <div class="login-form">
-    <h2>{{ i18n('用户登录') }}<span class="t2">{{ i18n('演示版') }}v1.4.0</span></h2>
+    <h2>{{ i18n('用户登录') }}<span class="t2">{{ i18n('演示版') }}v1.4.1</span></h2>
     <div class="v-tag">Vue3.x{{ i18n('版本') }}</div>
     <div style="margin: 20px 0px 10px 0px" @keypress="loginPress">
       <a-form ref="formRef" :model="userInfo" :rules="rules">

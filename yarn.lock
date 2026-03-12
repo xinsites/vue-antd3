@@ -4591,10 +4591,10 @@ wrappy@1:
   resolved "https://registry.npmmirror.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-xin-antd3-ui@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmmirror.com/xin-antd3-ui/-/xin-antd3-ui-1.4.0.tgz#e10b4c1aaf6f41cbc6cbf09ab025244b721db1b2"
-  integrity sha512-LS38By5Y0E9o9BC2BmdGW+ml7HohWXwXjTLSHC3JrEFSyy/d4NX7uHjjIA6T8eHtUtys3gvFvHN5FKMDhH5kUg==
+xin-antd3-ui@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/xin-antd3-ui/-/xin-antd3-ui-1.4.1.tgz#56bad6eba234d1396d23e7619baf81488c6dd1e6"
+  integrity sha512-v6Gej8CeLFksIwR4N5Hr5gSqW62oWLNV/UlIevP4QT8g9ltBLtjhC2BmHlcSI0o9XOD14vqdkspAaCEWQXe+DA==
 
 xlsx@^0.18.5:
   version "0.18.5"

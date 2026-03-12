@@ -1,7 +1,7 @@
 {
   "name": "xinsite-antd3",
   "private": true,
-  "version": "1.4.0",
+  "version": "1.4.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -28,7 +28,7 @@
     "vue-i18n": "^9.2.2",
     "vue-router": "4.1.4",
     "vuedraggable": "^4.1.0",
-    "xin-antd3-ui": "^1.4.0",
+    "xin-antd3-ui": "^1.4.1",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {

@@ -76,7 +76,7 @@
     <!-- 底部区域 -->
     <template #footer="{ year, isMobile  }">
       <div class="footer xin-text">
-        <div>版本：v1.4.0</div>
+        <div>版本：v1.4.1</div>
         <div>Copyright © 2020 - {{ year }} All Rights Reserved. <a href="http://xinsite.vip/" target="_blank">xinsite.vip</a></div>
         <div></div>
       </div>
