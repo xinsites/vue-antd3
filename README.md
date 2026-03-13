@@ -150,7 +150,7 @@ xinsite-antd3/
 
 演示：http://antd3.lite.xinsite.vip/
 
-邮箱：support@xinsite.vip（购买/商务咨询）
+邮箱：xinsite@foxmail.com（购买/商务咨询）
 
 授权用户群：购买后凭订单号加入专属技术交流群
 
